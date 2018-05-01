@@ -1,4 +1,4 @@
-coininfo
+coininfo (for Vegecoin forked monacoin)
 ========
 
 [![build status](https://api.travis-ci.org/cryptocoinjs/coininfo.svg)](http://travis-ci.org/cryptocoinjs/coininfo)
@@ -10,14 +10,14 @@ Works in Node.js and the browser.
 Installation
 ------------
 
-    npm i --save coininfo
+    npm i --save @atelier-node/coininfo
 
 
 Usage
 -----
 
 ```js
-var coininfo = require('coininfo')
+var coininfovege = require('@atelier-node/coininfo')
 
 console.dir(coininfo('LTC')) //use LTC-TEST for testnet
 // =>

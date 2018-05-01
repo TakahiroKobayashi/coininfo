@@ -1,7 +1,7 @@
 {
-  "name": "coininfo",
-  "version": "2.0.0",
-  "description": "JavaScript component for crypto currency specific information.",
+  "name": "@atelier-node/coininfo",
+  "version": "2.2.0-vege-2",
+  "description": "my coin vegecoin added to JavaScript component for crypto currency specific information.",
   "license": "MIT",
   "keywords": [
     "cryptography",
@@ -16,14 +16,15 @@
     "namecoin",
     "dash",
     "monacoin",
-    "zcash"
+    "zcash",
+    "vegecoin"
   ],
   "devDependencies": {
     "standard": "*",
     "tape": "^4.8.0"
   },
   "repository": {
-    "url": "https://github.com/cryptocoinjs/coininfo",
+    "url": "https://github.com/TakahiroKobayashi/coininfo",
     "type": "git"
   },
   "main": "./lib/coininfo.js",
